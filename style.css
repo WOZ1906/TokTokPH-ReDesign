@@ -9,6 +9,11 @@
 body {
   font-family: "Roboto", sans-serif;
   background: #fcb91a;
+  /* background: rgb(249,245,120);
+background: -moz-linear-gradient(270deg, rgba(249,245,120,1) 10%, rgba(252,185,26,1) 54%);
+background: -webkit-linear-gradient(270deg, rgba(249,245,120,1) 10%, rgba(252,185,26,1) 54%);
+background: linear-gradient(270deg, rgba(249,245,120,1) 10%, rgba(252,185,26,1) 54%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f9f578",endColorstr="#fcb91a",GradientType=1); */
   color: #707070;
 }
 
@@ -100,7 +105,6 @@ a {
   display: grid;
   grid-template-columns: 60% auto;
   height: 95vh;
-  
 }
 
 .column-left {
@@ -113,12 +117,10 @@ a {
   width: 100%;
 }
 
-.under img{
+.under img {
   position: absolute;
-  top: 480px;
-  left:0;
- 
-
+  top: 470px;
+  left: 0;
 }
 .under-image {
   width: 100%;
