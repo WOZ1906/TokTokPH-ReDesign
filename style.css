@@ -8,7 +8,18 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #fcb91a;
+  /* background: #fcb91a; */
+
+  background: rgb(237,185,62);
+  background: -moz-radial-gradient(circle, rgba(237,185,62,1) 2%, rgba(252,185,26,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(237,185,62,1) 2%, rgba(252,185,26,1) 100%);
+  background: radial-gradient(circle, rgba(237,185,62,1) 2%, rgba(252,185,26,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#edb93e",endColorstr="#fcb91a",GradientType=1);
+
+
+
+
+
   /* background: rgb(249,245,120);
 background: -moz-linear-gradient(270deg, rgba(249,245,120,1) 10%, rgba(252,185,26,1) 54%);
 background: -webkit-linear-gradient(270deg, rgba(249,245,120,1) 10%, rgba(252,185,26,1) 54%);
